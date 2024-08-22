@@ -1,0 +1,77 @@
+html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Odin Project Foundations Course Overview</title>
+    <style>
+        body {
+            font-family: 'Verdana', sans-serif;
+            background-color: #eaeaea;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+        }
+        header {
+            background: #4CAF50;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        section {
+            margin: 20px 0;
+            padding: 15px;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        h1, h2 {
+            margin: 0;
+        }
+        h2 {
+            color: #4CAF50;
+        }
+        ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Odin Project Foundations Course Overview</h1>
+    </header>
+    
+    <section>
+        <h2>About the Course</h2>
+        <p>The Odin Project Foundations course is an essential starting point for aspiring web developers, focusing on foundational skills.</p>
+    </section>
+
+    <section>
+        <h2>Core Subjects</h2>
+        <ul>
+            <li><strong>HTML:</strong> Learn the basics of structuring web content.</li>
+            <li><strong>CSS:</strong> Discover how to style websites and create visually appealing designs.</li>
+            <li><strong>JavaScript:</strong> Get introduced to programming and how to add interactivity to web pages.</li>
+            <li><strong>Git & GitHub:</strong> Understand version control and collaboration in projects.</li>
+            <li><strong>Responsive Web Design:</strong> Techniques to ensure your websites look good on all devices.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Practical Projects</h2>
+        <p>Students will engage in various projects, including:</p>
+        <ul>
+            <li>Creating a personal portfolio website.</li>
+            <li>Developing a simple landing page.</li>
+            <li>Implementing a responsive design project.</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Final Thoughts</h2>
+        <p>This course equips learners with the skills necessary to begin their journey in web development, laying the groundwork for future learning and projects.</p>
+    </section>
+</body>
+</html>
