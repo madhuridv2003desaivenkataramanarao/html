@@ -8,7 +8,6 @@
     <style>
         body {
             font-family: Arial, sans-serif;
-            line-height: 1.6;
             margin: 0;
             padding: 0;
             background-color: #f4f4f4;
@@ -16,24 +15,33 @@
         header {
             background-color: #333;
             color: #fff;
-            padding: 10px 0;
             text-align: center;
+            padding: 20px;
         }
         main {
-            padding: 20px;
             margin: 20px;
+            padding: 20px;
             background-color: #fff;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
-        h1, h2 {
+        section {
+            margin-bottom: 30px;
+        }
+        h2 {
             color: #333;
+        }
+        pre {
+            background-color: #f1f1f1;
+            padding: 10px;
+            border-radius: 5px;
+            overflow-x: auto;
         }
         footer {
             background-color: #333;
             color: #fff;
             text-align: center;
-            padding: 10px 0;
+            padding: 10px;
             position: fixed;
             bottom: 0;
             width: 100%;
@@ -43,33 +51,79 @@
 <body>
 
     <header>
-        <h1>Odin Project Foundations</h1>
+        <h1>Odin Project Foundations - Key HTML Concepts</h1>
     </header>
 
     <main>
         <section>
-            <h2>HTML and CSS Basics</h2>
-            <p>In the foundation course, you will learn the basics of HTML and CSS. You'll understand how to structure a webpage using semantic HTML and style it using CSS for a visually appealing interface.</p>
+            <h2>Elements and Tags</h2>
+            <p>HTML is made up of elements, which are defined by tags. Tags are used to mark up the beginning and end of an element.</p>
+            <pre>
+&lt;tagname&gt; Content inside element &lt;/tagname&gt;
+            </pre>
+            <p>For example, a paragraph element looks like this:</p>
+            <pre>
+&lt;p&gt;This is a paragraph.&lt;/p&gt;
+            </pre>
         </section>
 
         <section>
-            <h2>Git and GitHub</h2>
-            <p>Version control with Git is introduced to manage your code effectively. You'll also learn how to use GitHub to host and collaborate on projects.</p>
+            <h2>HTML Boilerplate</h2>
+            <p>The HTML boilerplate is the basic structure needed for any HTML document. It includes the document type declaration, the root element &lt;html&gt;, and other essential elements like &lt;head&gt; and &lt;body&gt;.</p>
+            <pre>
+&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+  &lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;Page Title&lt;/title&gt;
+  &lt;/head&gt;
+  &lt;body&gt;
+    Content goes here.
+  &lt;/body&gt;
+&lt;/html&gt;
+            </pre>
         </section>
 
         <section>
-            <h2>JavaScript Basics</h2>
-            <p>You'll be introduced to JavaScript to add interactivity to your web pages. This section covers variables, functions, loops, and basic DOM manipulation.</p>
+            <h2>Working with Text</h2>
+            <p>HTML provides various tags for formatting text. Some of the most commonly used ones include:</p>
+            <ul>
+                <li>&lt;p&gt;: Paragraph</li>
+                <li>&lt;strong&gt;: Bold text</li>
+                <li>&lt;em&gt;: Italic text</li>
+                <li>&lt;br&gt;: Line break</li>
+            </ul>
+            <p>For example:</p>
+            <pre>
+&lt;p&gt;This is a &lt;strong&gt;bold&lt;/strong&gt; and &lt;em&gt;italic&lt;/em&gt; text.&lt;/p&gt;
+            </pre>
         </section>
 
         <section>
-            <h2>Project: Building a Web Page</h2>
-            <p>The culmination of the foundation course involves building a simple web page from scratch. You'll apply HTML, CSS, and JavaScript concepts learned in the course to this project.</p>
+            <h2>Lists</h2>
+            <p>HTML supports both ordered and unordered lists.</p>
+            <h3>Unordered List:</h3>
+            <pre>
+&lt;ul&gt;
+  &lt;li&gt;Item 1&lt;/li&gt;
+  &lt;li&gt;Item 2&lt;/li&gt;
+  &lt;li&gt;Item 3&lt;/li&gt;
+&lt;/ul&gt;
+            </pre>
+            <h3>Ordered List:</h3>
+            <pre>
+&lt;ol&gt;
+  &lt;li&gt;First Item&lt;/li&gt;
+  &lt;li&gt;Second Item&lt;/li&gt;
+  &lt;li&gt;Third Item&lt;/li&gt;
+&lt;/ol&gt;
+            </pre>
         </section>
     </main>
 
     <footer>
-        <p>© 2024 Odin Project Foundations</p>
+        <p>© 2024 Odin Project Foundations Summary</p>
     </footer>
 
 </body>
